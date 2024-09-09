@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi-Everest-Intelligent", "WebApi-Everest-Intelligent\WebApi-Everest-Intelligent.csproj", "{651D27C4-BF12-4987-8032-E92BD9769F8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{651D27C4-BF12-4987-8032-E92BD9769F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651D27C4-BF12-4987-8032-E92BD9769F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651D27C4-BF12-4987-8032-E92BD9769F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651D27C4-BF12-4987-8032-E92BD9769F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BA344B3-0C30-4647-AF57-68DD95276D27}
+	EndGlobalSection
+EndGlobal
