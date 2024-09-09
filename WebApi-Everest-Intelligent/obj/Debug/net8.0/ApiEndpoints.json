@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "WebApi_Everest_Intelligent.Controllers.ApiController",
+    "Method": "CrearProducto",
+    "RelativePath": "api/Api/CrearProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "WebApi_Everest_Intelligent.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi_Everest_Intelligent.Controllers.ApiController",
+    "Method": "BorrarProducto",
+    "RelativePath": "api/Api/EliminarProducto",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi_Everest_Intelligent.Controllers.ApiController",
+    "Method": "EditarProducto",
+    "RelativePath": "api/Api/ModificarProducto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "producto",
+        "Type": "WebApi_Everest_Intelligent.Models.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi_Everest_Intelligent.Controllers.ApiController",
+    "Method": "ObtenerProductoId",
+    "RelativePath": "api/Api/ObtenerProductoId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi_Everest_Intelligent.Controllers.ApiController",
+    "Method": "ObtenerProducto",
+    "RelativePath": "api/Api/ObtenerProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
